@@ -11,25 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{37734E46-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{35FE81CB-BE5E-4D1A-B7D2-FEAC15482789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swq.Domain", "Src\Core\Swq.Domain\Swq.Domain.csproj", "{7EC109E9-E804-4ADA-BFFC-C3F2D22DA0DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Domain", "Src\Core\Cdcn.Domain\Cdcn.Domain.csproj", "{7EC109E9-E804-4ADA-BFFC-C3F2D22DA0DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swq.Application", "src\Core\Swq.Application\Swq.Application.csproj", "{AFC28D31-F214-4F5C-8341-887AD5639E87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Application", "src\Core\Cdcn.Application\Cdcn.Application.csproj", "{AFC28D31-F214-4F5C-8341-887AD5639E87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swq.Infrastructure", "Src\Infrastructure\Swq.Infrastructure\Swq.Infrastructure.csproj", "{9A7ECBF2-5FCE-45CB-8FA0-3E4B77C43818}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Infrastructure", "Src\Infrastructure\Cdcn.Infrastructure\Cdcn.Infrastructure.csproj", "{9A7ECBF2-5FCE-45CB-8FA0-3E4B77C43818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swa.Infrastructure.DataAccess", "src\Infrastructure\Swa.Infrastructure.DataAccess\Swa.Infrastructure.DataAccess.csproj", "{710B7E8D-561A-48F9-A45F-DD7D6679ED07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Infrastructure.DataAccess", "src\Infrastructure\Cdcn.Infrastructure.DataAccess\Cdcn.Infrastructure.DataAccess.csproj", "{710B7E8D-561A-48F9-A45F-DD7D6679ED07}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2AE0DD83-E962-4D86-8B4E-9C4089FCC410}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swq.Presentation.WebApi", "src\Presentation\Swq.Presentation.WebApi\Swq.Presentation.WebApi.csproj", "{A4846B18-C5C8-456B-AD7E-E8FD0FA0F51B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{77B09073-0D92-40BA-92AE-B9038A57B931}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTest", "IntegrationTest", "{B1DD61AB-5A4B-4627-B3D6-706FC31D2444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swq.Domain.Tests", "Test\UnitTest\Swq.Domain.Tests\Swq.Domain.Tests.csproj", "{8EBE26CE-42E0-4E5B-AB79-9B4D1B0EF4F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Domain.Tests", "Test\UnitTest\Cdcn.Domain.Tests\Cdcn.Domain.Tests.csproj", "{8EBE26CE-42E0-4E5B-AB79-9B4D1B0EF4F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swq.Application.Tests", "Test\UnitTest\Swq.Application.Tests\Swq.Application.Tests.csproj", "{44E64298-7ADB-4C53-9734-0A416271FCB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Application.Tests", "Test\UnitTest\Cdcn.Application.Tests\Cdcn.Application.Tests.csproj", "{44E64298-7ADB-4C53-9734-0A416271FCB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +51,6 @@ Global
 		{710B7E8D-561A-48F9-A45F-DD7D6679ED07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{710B7E8D-561A-48F9-A45F-DD7D6679ED07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{710B7E8D-561A-48F9-A45F-DD7D6679ED07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4846B18-C5C8-456B-AD7E-E8FD0FA0F51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4846B18-C5C8-456B-AD7E-E8FD0FA0F51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4846B18-C5C8-456B-AD7E-E8FD0FA0F51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4846B18-C5C8-456B-AD7E-E8FD0FA0F51B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8EBE26CE-42E0-4E5B-AB79-9B4D1B0EF4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8EBE26CE-42E0-4E5B-AB79-9B4D1B0EF4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EBE26CE-42E0-4E5B-AB79-9B4D1B0EF4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -77,7 +71,6 @@ Global
 		{9A7ECBF2-5FCE-45CB-8FA0-3E4B77C43818} = {35FE81CB-BE5E-4D1A-B7D2-FEAC15482789}
 		{710B7E8D-561A-48F9-A45F-DD7D6679ED07} = {35FE81CB-BE5E-4D1A-B7D2-FEAC15482789}
 		{2AE0DD83-E962-4D86-8B4E-9C4089FCC410} = {25520C75-0E45-4552-AC0F-F8BE0E6A0ECD}
-		{A4846B18-C5C8-456B-AD7E-E8FD0FA0F51B} = {2AE0DD83-E962-4D86-8B4E-9C4089FCC410}
 		{77B09073-0D92-40BA-92AE-B9038A57B931} = {5A78CE8B-3421-439F-AF2A-6A7C8DF18599}
 		{B1DD61AB-5A4B-4627-B3D6-706FC31D2444} = {5A78CE8B-3421-439F-AF2A-6A7C8DF18599}
 		{8EBE26CE-42E0-4E5B-AB79-9B4D1B0EF4F6} = {77B09073-0D92-40BA-92AE-B9038A57B931}
