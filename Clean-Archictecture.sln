@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{37734E46-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{35FE81CB-BE5E-4D1A-B7D2-FEAC15482789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Domain", "Src\Core\Cdcn.Domain\Cdcn.Domain.csproj", "{7EC109E9-E804-4ADA-BFFC-C3F2D22DA0DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdcn.Domain", "Src\Core\Cdcn.Domain\Cdcn.Domain.csproj", "{7EC109E9-E804-4ADA-BFFC-C3F2D22DA0DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Application", "src\Core\Cdcn.Application\Cdcn.Application.csproj", "{AFC28D31-F214-4F5C-8341-887AD5639E87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdcn.Application", "src\Core\Cdcn.Application\Cdcn.Application.csproj", "{AFC28D31-F214-4F5C-8341-887AD5639E87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Infrastructure", "Src\Infrastructure\Cdcn.Infrastructure\Cdcn.Infrastructure.csproj", "{9A7ECBF2-5FCE-45CB-8FA0-3E4B77C43818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdcn.Infrastructure", "Src\Infrastructure\Cdcn.Infrastructure\Cdcn.Infrastructure.csproj", "{9A7ECBF2-5FCE-45CB-8FA0-3E4B77C43818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Infrastructure.DataAccess", "src\Infrastructure\Cdcn.Infrastructure.DataAccess\Cdcn.Infrastructure.DataAccess.csproj", "{710B7E8D-561A-48F9-A45F-DD7D6679ED07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdcn.Infrastructure.DataAccess", "src\Infrastructure\Cdcn.Infrastructure.DataAccess\Cdcn.Infrastructure.DataAccess.csproj", "{710B7E8D-561A-48F9-A45F-DD7D6679ED07}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2AE0DD83-E962-4D86-8B4E-9C4089FCC410}"
 EndProject
@@ -25,9 +25,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{77
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTest", "IntegrationTest", "{B1DD61AB-5A4B-4627-B3D6-706FC31D2444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Domain.Tests", "Test\UnitTest\Cdcn.Domain.Tests\Cdcn.Domain.Tests.csproj", "{8EBE26CE-42E0-4E5B-AB79-9B4D1B0EF4F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdcn.Domain.Tests", "Test\UnitTest\Cdcn.Domain.Tests\Cdcn.Domain.Tests.csproj", "{8EBE26CE-42E0-4E5B-AB79-9B4D1B0EF4F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Application.Tests", "Test\UnitTest\Cdcn.Application.Tests\Cdcn.Application.Tests.csproj", "{44E64298-7ADB-4C53-9734-0A416271FCB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdcn.Application.Tests", "Test\UnitTest\Cdcn.Application.Tests\Cdcn.Application.Tests.csproj", "{44E64298-7ADB-4C53-9734-0A416271FCB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdcn.Presentation.WebApi", "Src\Presentation\Cdcn.Presentation.WebApi\Cdcn.Presentation.WebApi.csproj", "{99E7A009-FEB8-4B5B-BE08-4B4FDB0A01E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AF77504-A123-4B5B-A5BB-0305334AC9A4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +67,10 @@ Global
 		{44E64298-7ADB-4C53-9734-0A416271FCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E64298-7ADB-4C53-9734-0A416271FCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E64298-7ADB-4C53-9734-0A416271FCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E7A009-FEB8-4B5B-BE08-4B4FDB0A01E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E7A009-FEB8-4B5B-BE08-4B4FDB0A01E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E7A009-FEB8-4B5B-BE08-4B4FDB0A01E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E7A009-FEB8-4B5B-BE08-4B4FDB0A01E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +87,7 @@ Global
 		{B1DD61AB-5A4B-4627-B3D6-706FC31D2444} = {5A78CE8B-3421-439F-AF2A-6A7C8DF18599}
 		{8EBE26CE-42E0-4E5B-AB79-9B4D1B0EF4F6} = {77B09073-0D92-40BA-92AE-B9038A57B931}
 		{44E64298-7ADB-4C53-9734-0A416271FCB1} = {77B09073-0D92-40BA-92AE-B9038A57B931}
+		{99E7A009-FEB8-4B5B-BE08-4B4FDB0A01E1} = {2AE0DD83-E962-4D86-8B4E-9C4089FCC410}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A529BC71-8E62-45E2-B5D2-62A09972FDAC}
